@@ -9,17 +9,7 @@ public class CalcularPeriodo {
 		//Creamos la fecha del descubrimiento de américa
 		LocalDate fecha = LocalDate.of(1492, Month.OCTOBER, 12);	 
 		// Mostramos cuánto tiempo ha pasado
-		calcularPeriodo("El descubrimiento de America", fecha);
-
-		//Creamos la fecha de la primera gurra mundial
-		LocalDate fechaG = LocalDate.of(1914, Month.JULY, 28);	 
-		// Mostramos cuánto tiempo ha pasado
-		calcularPeriodo("La primera guerra mundial", fechaG);
-
-		//Creamos la fecha de creacion de Minecraft
-		LocalDate fechaM = LocalDate.of(2009, Month.MAY, 17);	 
-		// Mostramos cuánto tiempo ha pasado
-		calcularPeriodo("Creacion de Minecraft", fechaM);
+		calcularPeriodo("El descubrimiento de América", fecha);
 		
 	}
 	
@@ -33,7 +23,7 @@ public class CalcularPeriodo {
         int meses = periodo.getMonths();
         int dias = periodo.getDays();
         
-        String texto = String.format(nombre + " ocurrio hace %d a�os, %d meses y %d dias.", anyos, meses, dias);
+        String texto = String.format(nombre + " ocurrió hace %d años, %d meses y %d días.", anyos, meses, dias);
          
         System.out.println(texto);
     }
