@@ -10,6 +10,16 @@ public class CalcularPeriodo {
 		LocalDate fecha = LocalDate.of(1492, Month.OCTOBER, 12);	 
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El descubrimiento de América", fecha);
+
+		//Creamos la fecha de la primera guerra mundial
+		LocalDate fechaG = LocalDate.of(1914, Month.JULY, 28);	 
+		// Mostramos cuánto tiempo ha pasado
+		calcularPeriodo("La primera guerra mundial", fechaG);
+		
+		//Creamos la fecha de salida de Minecraft
+		LocalDate fechaM = LocalDate.of(2009, Month.MAY, 17);	 
+		// Mostramos cuánto tiempo ha pasado
+		calcularPeriodo("La salida de Minecraft", fechaM);
 		
 	}
 	
