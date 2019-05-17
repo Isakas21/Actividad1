@@ -21,6 +21,11 @@ public class CalcularPeriodo {
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("La salida de Minecraft", fechaM);
 		
+		//Creamos la fecha de nacimiento de Michael Jordan
+		LocalDate fechaJ = LocalDate.of(1963, Month.FEBRUARY, 17);	 
+		// Mostramos cuánto tiempo ha pasado
+		calcularPeriodo("Nacimiento Michael Jordan", fechaJ);
+		
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
